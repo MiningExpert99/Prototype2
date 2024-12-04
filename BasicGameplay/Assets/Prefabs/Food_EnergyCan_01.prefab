@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5035430084676714872}
   - component: {fileID: 5035430084673847640}
   - component: {fileID: 5035430084674945944}
+  - component: {fileID: -851345447628662441}
+  - component: {fileID: -5918685011527664393}
   m_Layer: 0
   m_Name: Food_EnergyCan_01
   m_TagString: Untagged
@@ -86,3 +88,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-851345447628662441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5035430084677147992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ea320f070f6ed4d9ffa2a34d479824, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 40
+--- !u!114 &-5918685011527664393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5035430084677147992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf05319e774e4e14db464718f4eaf200, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
